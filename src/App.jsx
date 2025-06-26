@@ -10,6 +10,7 @@ import Facilities from './assets/components/Facilities'
 import Holiday from './assets/components/Holiday'
 import Services from './assets/components/Services'
 import Footer from './assets/components/Footer'
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
 <Holiday/>
 <Services/>
 <Footer/>
+<Analytics/>
 </div>
   )
 }
