@@ -11,17 +11,8 @@ function App() {
   return (
     <div>
 <Navbar/>
-<Banner/>
-<About/>
-<Facilities/>
-<Holiday/>
-<Services/>
-<Footer/>
 
-</div>
-  )
-    <>
-      <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,8 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
-    </>
-  );
+</div>
+  )
 }
 
 export default App;

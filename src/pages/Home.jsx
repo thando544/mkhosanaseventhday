@@ -226,7 +226,6 @@ function Home() {
           </div>
         </div>
       </section>
-     
     </main>
   );
 }

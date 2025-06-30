@@ -4,8 +4,9 @@ import { Link } from "react-router";
 
 function About(){
   return(
+    
     <div>
-      hello about page
+      
     </div>
   )
 }
