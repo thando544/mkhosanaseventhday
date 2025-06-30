@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
 
-export class About extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+import React from "react";
+import { Link } from "react-router";
+
+function About(){
+  return(
+    <div>
+      hello about page
+    </div>
+  )
 }
 
-export default About
+export default About;

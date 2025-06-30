@@ -1,32 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import { Router, Routes } from 'react-router-dom'
-import { BrowserRouter } from 'react-router-dom'
-import Navbar from './assets/components/Navbar'
-import Banner from './assets/components/Banner'
-import About from './assets/components/About'
-import Facilities from './assets/components/Facilities'
-import Holiday from './assets/components/Holiday'
-import Services from './assets/components/Services'
-import Footer from './assets/components/Footer'
-import { Analytics } from "@vercel/analytics/next"
+import { Route, Routes } from "react-router";
+import "./App.css";
+import Navbar from "./assets/components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Sports from "./pages/Sports";
+import Contact from "./pages/Contact";
+  import Footer from "./assets/components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-<Navbar/>
-<Banner/>
-<About/>
-<Facilities/>
-<Holiday/>
-<Services/>
-<Footer/>
-<Analytics/>
-</div>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/sports" element={<Sports />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer/>
+    </>
+  );
 }
 
-export default App
+export default App;
