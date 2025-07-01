@@ -9,8 +9,10 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div>
+<Navbar/>
+
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,8 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
-    </>
-  );
+</div>
+  )
 }
 
 export default App;
