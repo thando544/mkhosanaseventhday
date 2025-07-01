@@ -24,7 +24,7 @@ function Home() {
               <li>Personal Responsibility</li>
             </div>
             <div className="bg-gray-300 w-2/4 h-3 rounded-2xl">
-              <div className="bg-green-500 h-3 w-60 rounded-2xl"></div>
+              <div className="bg-green-500 h-3 w-60 rounded-2xlsm "></div>
             </div>
             <button className="bg-blue-600 w-32 h-9 text-white">
               Readmore
@@ -190,7 +190,7 @@ function Home() {
           </div>
 
           <div className=" flex flex-col gap-1">
-            <h1 className="text-xs text-yellow-500 font-medium border-t-4 border-amber-500 border-l-4 -ml-9 h-7 w-9 p-9">
+            <h1 className="text-xs text-yellow-500 font-medium border-t-4 border-amber-500 border-l-4 -ml-9 h-7 w-9 p-9 sm:text-red-600">
               ACHIEVEMENTS
             </h1>
             <div

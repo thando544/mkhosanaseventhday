@@ -201,6 +201,11 @@ function Sports() {
 
 {/* table */}
 <Table/>
+<thead>
+  <td>
+    
+  </td>
+</thead>
 
     </div>
   );

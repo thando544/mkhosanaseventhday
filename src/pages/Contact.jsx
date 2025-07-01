@@ -7,9 +7,9 @@ function Contact() {
     <>
       <div
         className="xl:bg-cover bg-center w-full h-48 sm:h-96 md:h-64 lg:w-full xl:h-[90vh]"
-        style={{ backgroundImage: "url('/images/Rectangle 82 (1).png')" }}
+        style={{ backgroundImage: "url('/images/Rectangle 82 (2).png')" }}
       >
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white font-mersad pt-20 lg:pt-32 xl:pt-[420px] px-4 lg:pl-20 xl:pl-14">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-white font-mersad pt-20 lg:pt-32 xl:pt-[390px] px-4 lg:pl-20 xl:pl-14">
           Become A Part <br /> Of Our Community
         </h1>
       </div>
@@ -18,13 +18,13 @@ function Contact() {
       <section className="min-h-screen flex items-start justify-center lg:justify-start bg-white px-4 sm:px-6 lg:px-20 py-12">
         <div className="w-full max-w-md">
           {/* Heading */}
-          <h2 className="text-4xl font-bold text-black mb-10 uppercase text-center lg:text-left">
+          <h2 className="text-4xl font-bold text-black mb-10 uppercase text-center lg:text-left font-mersad">
             Enroll
           </h2>
 
-          {/* Form */}
+        
           <form className="space-y-6">
-            {/* Name */}
+            
             <div>
               <label className="block text-gray-700 mb-1 font-medium uppercase">
                 Name
