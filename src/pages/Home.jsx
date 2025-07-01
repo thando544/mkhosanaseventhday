@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../assets/components/Banner";
-import Footer from "../assets/components/Footer";
+
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
               <li>Personal Responsibility</li>
             </div>
             <div className="bg-gray-300 w-2/4 h-3 rounded-2xl">
-              <div className="bg-green-500 h-3 w-60 rounded-2xlsm "></div>
+              <div className="bg-blue-500 h-3 w-60 rounded-2xl"></div>
             </div>
             <button className="bg-blue-600 w-32 h-9 text-white">
               Readmore
@@ -34,9 +34,32 @@ function Home() {
           <div className="w-120  items-center justify-center" id="about-image">
             <img src="/images/about.png" alt="" />
             <div className="image-components">
-              <div className="top-rectangle"></div>
-              <div className="second-rectangle"></div>
-              <div className="last-rectangle"></div>
+              <div className="top-rectangle flex flex-col items-center justify-center -space-y-6 text-center p-2">
+                <img src="/images/Vision.png" alt="" />
+                <h2 className="text-xs font-bold">VISION</h2>
+                <p className="text-xs font-extralight">
+                  To develop future-ready leader who exemplify wisdom,
+                  compassion and devotion to God's princeples in a changing
+                  world
+                </p>
+              </div>
+              <div className="second-rectangle flex flex-col items-center justify-center -space-y-6 text-center p-2">
+                <img src="/images/Goal.png" alt="" />
+                <h2 className="text-white font-bold text-xs">MISSION</h2>
+                <p className="text-xs text-white">
+                  To educate and inspire students in a christian centeredd
+                  environment, nurturing thier God given potential through
+                  rigorous acadenics and services to humanity
+                </p>
+              </div>
+              <div className="last-rectangle flex flex-col items-center justify-center -space-y-6 text-center">
+                <img src="/images/Star.png" alt="" />
+                <h2 className="text-xs font-bold">GOAL</h2>
+                <p className="text-xs">
+                  Build strong relationship between the school, parents and the
+                  wider community
+                </p>
+              </div>
             </div>
           </div>
         </div>
