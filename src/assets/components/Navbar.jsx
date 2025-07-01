@@ -5,25 +5,14 @@ import { Link } from "react-router";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between h-23 p-9 shadow-md">
-      <a
-        href=""
-        className="flex items-center justify-center text-2xl font-bold "
-      >
-        <img src="/images/logo.png" alt="logo" />
-        MASS
-      </a>
-      <ul className="flex gap-4 text-1xl items-center">
-        <li>
-          <Link className="" to="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/sports">Sports</Link>
+    <nav className="flex items-center justify-between h-23 p-9 shadow-md sticky z-30 top-0 ">
+
+ <li>
+<Link to="/sports">Sports</Link>
+
+<li>
+          <Link to="/sports">Sport</Link>
+
         </li>
         <li>
           <Link to="/contact">Contact</Link>
