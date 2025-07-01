@@ -1,4 +1,14 @@
 @import "tailwindcss";
 
+@layer components{
+    .btn-bg{
+        color: #145a8d;
+        
+    }
+.components{
+      background-color: #e4e9ef;      
+        }
+
+}
 
 

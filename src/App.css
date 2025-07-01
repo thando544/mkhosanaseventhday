@@ -174,22 +174,22 @@ body {
 
 .top-rectangle {
   background-color: rgb(185, 177, 177);
-  height: 90px;
-  width: 200px;
+  height: 110px;
+  width: 260px;
   border-radius: 1rem;
 }
 
 .second-rectangle {
   background-color: blue;
-  height: 90px;
-  width: 290px;
+  height: 110px;
+  width: 360px;
   border-radius: 1rem;
 }
 
 .last-rectangle {
   background-color: rgb(185, 177, 177);
-  height: 90px;
-  width: 200px;
+  height: 110px;
+  width: 260px;
   border-radius: 1rem;
 }
 
@@ -200,7 +200,7 @@ body {
   justify-content: center;
   position: absolute;
   top: 4.9rem;
-  left: -8rem;
+  left: -12rem;
 }
 
 #about-image {
@@ -234,6 +234,17 @@ body {
 #tex:hover {
   background-color: white;
   box-shadow: 0 0 10px black;
+}
+
+.list{
+  list-style-type: disc;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.font-extralight{
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 @media (max-width: 480px) {
