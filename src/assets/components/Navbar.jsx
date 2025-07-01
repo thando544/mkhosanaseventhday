@@ -22,14 +22,8 @@ function Navbar() {
         <li>
           <Link to="/about">About</Link>
         </li>
-<<<<<<< HEAD
         <li>
           <Link to="/sports">Sports</Link>
-=======
-
-        <li>
-          <Link to="/sports">Sport</Link>
->>>>>>> f621e993f0a12be16dc690c148474147fc04fe12
         </li>
         <li>
           <Link to="/contact">Contact</Link>
