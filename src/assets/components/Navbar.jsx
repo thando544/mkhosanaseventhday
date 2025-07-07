@@ -52,7 +52,7 @@ function Navbar() {
       </ul>
 
       <button
-        className="bg-blue-600 text-white h-8 w-29 cursor-pointer"
+        className="bg-[#145A8D] text-white h-8 w-29 cursor-pointer"
         id="navBtn"
       >
         Enroll

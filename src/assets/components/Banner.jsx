@@ -7,7 +7,7 @@ function Banner() {
         <div className="align-right">
           <h1 className="bannerh1">
             {" "}
-            <span>mkhosana adventist</span> <br /> secondary school
+            <span className="text-[#145A8D]">mkhosana adventist</span> <br /> secondary school
           </h1>
           <p>
             Founded in 2013, Mkhosana Secondary School is a Seventh-day
@@ -47,7 +47,7 @@ function Banner() {
             </h4>
           </div>
           <div className="flex gap-4 " id="buttons">
-            <button className="enroll">Enroll</button>
+            <button className="enroll bg-[#145A8D]">Enroll</button>
             <button className="more">learn more</button>
           </div>
         </div>

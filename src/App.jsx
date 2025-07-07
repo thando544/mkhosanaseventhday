@@ -5,7 +5,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Sports from "./pages/Sports";
 import Contact from "./pages/Contact";
-  import Footer from "./assets/components/Footer";
+import Footer from "./assets/components/Footer";
+
+
 
 function App() {
   return (
