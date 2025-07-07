@@ -146,6 +146,7 @@ function About() {
           <p className="text-2xl mt-5">Learn more about our mission, values ,<br /> and community</p>
         </div>
 
+<<<<<<< HEAD
         <table className="min-w-full table-auto border border-gray-300 bg-gray-100 mt-20 ">
         <thead>
           <tr className="bg-gray-100 text-left text-sm text-[#033253] uppercase">
@@ -253,6 +254,19 @@ function About() {
 
     
       
+=======
+        
+
+      <section>
+        charlotte
+      </section>
+
+      {/* fourth section */}
+      <section>
+        charlotte
+
+      </section>
+>>>>>>> 575ed86be09eb00284dfb3478883e84efef91b88
 
       {/* fifth section */}
       <section className="bg-[#145A8D] w-full h-[90vh] flex items-center justify-center text-white mb-20">
