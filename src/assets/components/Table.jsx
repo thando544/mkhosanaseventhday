@@ -1,5 +1,5 @@
-
 import React from 'react';
+
 const Table = () => {
   const tableData = [
     { pos: 1, club: "MASS", p: 2, w: 2, d: 0, l: 0, f: 5, a: 2, gd: 3, pts: 6 },
@@ -7,53 +7,45 @@ const Table = () => {
     { pos: 3, club: "HHS", p: 2, w: 1, d: 1, l: 0, f: 5, a: 2, gd: 3, pts: 4 },
     { pos: 4, club: "AAST", p: 2, w: 1, d: 1, l: 0, f: 5, a: 2, gd: 3, pts: 4 },
   ];
-  return(
-    <div className="py-12 px-4 bg-white h-[60vh] pt-28 pl-36 pr-36 overflow-hidden">
-  <div className="text-center mb-6">
-    <p className="text-sm text-gray-500 font-semibold">TABLE</p>
-    <h2 className="text-xl font-bold text-gold">ZSCLF TABLE</h2>
-  </div>
 
-  <div className="overflow-x-auto">
-    <table className="w-full text-sm text-center text-gray-700 border-collapse">
-      <thead className="bg-gray-100 uppercase text-xs text-gray-600">
-        <tr>
-          <th className="border-b border-gray-300 px-4 py-2">POS</th>
-          <th className="border-b border-gray-300 px-4 py-2">CLUB</th>
-          <th className="border-b border-gray-300 px-4 py-2">P</th>
-          <th className="border-b border-gray-300 px-4 py-2">W</th>
-          <th className="border-b border-gray-300 px-4 py-2">D</th>
-          <th className="border-b border-gray-300 px-4 py-2">L</th>
-          <th className="border-b border-gray-300 px-4 py-2">F</th>
-          <th className="border-b border-gray-300 px-4 py-2">A</th>
-          <th className="border-b border-gray-300 px-4 py-2">GD</th>
-          <th className="border-b border-gray-300 px-4 py-2">PTS</th>
-        </tr>
-      </thead>
-      <tbody>
-        {tableData.map((team, index) => (
-          <tr key={index} className="">
-            <td className="border-b border-gray-200 px-4 py-2">{team.pos}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.club}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.p}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.w}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.d}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.l}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.f}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.a}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.gd}</td>
-            <td className="border-b border-gray-200 px-4 py-2">{team.pts}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-</div>
+  return (
+    <div className="px-4 bg-white min-h-[60vh] flex flex-col items-center">
+      <div className="text-center mb-6">
+        <p className="text-sm font-semibold">TABLE</p>
+        <h2 className="text-2xl font-bold text-gold text-[#C8B916]">ZSCLF TABLE</h2>
+      </div>
 
-    
-  )
-}
-  
-
+      <div className="overflow-x-auto w-full max-w-5xl">
+        <table className="w-full text-sm sm:text-base text-center text-gray-700 border-collapse">
+          <thead className="bg-gray-100 uppercase text-xs sm:text-sm text-gray-600 sticky top-0">
+            <tr>
+              {["POS", "CLUB", "P", "W", "D", "L", "F", "A", "GD", "PTS"].map((header, index) => (
+                <th key={index} className="border-b border-gray-300 px-4 sm:px-6 py-3">
+                  {header}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {tableData.map((team, index) => (
+              <tr key={index}>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.pos}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.club}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.p}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.w}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.d}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.l}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.f}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.a}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.gd}</td>
+                <td className="border-b border-gray-200 px-4 sm:px-6 py-3 font-medium">{team.pts}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
 
 export default Table;
