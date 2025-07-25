@@ -42,7 +42,7 @@ function Banner() {
               alt="img"
               className="absolute left-36 z-40"
             />
-            <h4 className="z-50 left-59 absolute  font-[12px] -mb-2 -ml-5">
+            <h4 className="z-50 left-59 absolute md:flex hidden  font-[12px] -mb-2 -ml-5">
               826+ STUDENTS ENROLLED
             </h4>
           </div>

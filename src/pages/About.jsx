@@ -6,7 +6,7 @@ function About() {
     <main>
       {/* banner */}
       <section
-        className="w-full md:h-screen h-[90vh] md:pl-8 pr-0 md:pt-[9em] pt-[5rem]  px-3.5 bg-[#f7f7f7] "
+        className="w-full md:h-screen h-screen md:pl-8 pr-0 md:pt-[9em] pt-[5rem]  px-3.5 bg-[#f7f7f7] "
      
       >
         <div className="grid md:grid-cols-2 justify-center items-center grid-cols-1 w-full">
@@ -45,7 +45,7 @@ function About() {
             <img
               src="/images/BOOKS 2.png"
               alt=""
-              className="absolute md:top-[18rem] top-[16em] left-[25%]"
+              className="absolute md:top-[18rem] top-[11em] left-[25%]"
             
             />
           </div>
@@ -370,7 +370,7 @@ function About() {
         </div>
       </section>
       <section
-        className="w-[100%] md:h-[86vh] h-[52vh] pb-[2em]  md:flex flex-col items-center justify-center md:p-16 p-2 md:py-5 py-2.5 "
+        className="w-[100%] md:h-[86vh] h-[70vh] pb-[2em]  md:flex flex-col items-center justify-center md:p-16 p-2 md:py-5 py-2.5 "
   
       >
         <div className="md:flex  w-[100%] h-[100%] object-center object-cover md:ml-20   ">

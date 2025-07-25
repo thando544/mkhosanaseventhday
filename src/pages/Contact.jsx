@@ -203,7 +203,7 @@ function Contact() {
 
             </div>
 
-            <div className="xl:grid md:grid-cols-2 gap-y-12 text-sm text-blue-800 font-semibold uppercase xl:mt-14">
+            <div className="xl:grid md:grid-cols-2 mr-20 gap-y-12 text-sm text-blue-800 font-semibold uppercase xl:mt-14">
               <div>
                 <div className="flex gap-2">
                   <span>
@@ -231,7 +231,7 @@ function Contact() {
                   </span>
                   ADDRESS
                 </div>
-                <h3 className="text-black w-72"> Mkhosana mainstreet, .  Victoria Falls</h3>
+                <h3 className="text-black md:w-72 w-52"> Mkhosana mainstreet, .  Victoria Falls</h3>
               </div>
             </div>
           </div>
