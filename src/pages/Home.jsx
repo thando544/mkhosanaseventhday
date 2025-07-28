@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../assets/components/Banner";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -35,7 +36,7 @@ function Home() {
               className="bg-[#145A8D] w-32 h-9 md:mb-0 mb-[2rem] align-middle text-white"
               id="btn"
             >
-              Readmore
+            <Link to="/about">Readmore</Link>
             </button>
           </div>
 
@@ -164,7 +165,7 @@ function Home() {
           </div>
         </div>
         <button className="mt-9 md:ml-[2em] ml-5 rounded-md font-semibold border-2 border-blue-600 w-36 h-12">
-          Donate
+          <Link to="/comingSoon">Donate</Link>
         </button>
       </section>
       {/*holiday  */}
@@ -183,7 +184,7 @@ function Home() {
               voluptatum exercitationem, commodi natus vel harum?
             </p>
             <button className="bg-white w-32 h-11 cursor-pointer ">
-              Learnmore
+              <Link to="/comingSoon">Learnmore</Link>
             </button>
           </div>
           <div className="md:absolute md:w-160 md:h-160 md:flex  md:right-3 md:-top-76 hidden">

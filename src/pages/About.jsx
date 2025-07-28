@@ -25,7 +25,7 @@ function About() {
               earth and for eternity."
             </p>
             <button className="bg-[#145A8D] w-40 h-11  cursor-pointer text-white mt-8 xl:ml-auto lg:ml-11">
-              more
+              <Link to="/comingSoon">more</Link>
             </button>
           </div>
           <div className="md:order-2 order-1 relative ">
@@ -152,7 +152,7 @@ function About() {
               </div>
             </div>
             <button className="bg-[#145A8D] h-13 w-36 ml-4 text-white">
-              Donate
+              <Link to="/comingSoon">Donate</Link>
             </button>
           </div>
         </div>
