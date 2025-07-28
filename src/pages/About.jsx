@@ -6,7 +6,7 @@ function About() {
     <main>
       {/* banner */}
       <section
-        className="w-full md:h-screen h-screen md:pl-8 pr-0 md:pt-[9em] pt-[5rem]  px-3.5 bg-[#f7f7f7] "
+        className="w-full md:h-screen h-[110vh] md:pl-8 pr-0 md:pt-[9em] pt-[5rem]  px-3.5 bg-[#f7f7f7] "
      
       >
         <div className="grid md:grid-cols-2 justify-center items-center grid-cols-1 w-full">
@@ -45,7 +45,7 @@ function About() {
             <img
               src="/images/BOOKS 2.png"
               alt=""
-              className="absolute md:top-[18rem] top-[11em] left-[25%]"
+              className="absolute md:top-[18rem] top-[7em] left-[25%]"
             
             />
           </div>
@@ -237,7 +237,7 @@ function About() {
           </div>
         </div>
       </section>
-      <section className="md:h-[120vh]  w-full xl:px-20 py-6 ">
+      <section className="md:h-[120vh]  w-full xl:px-20 py-6 md:flex md:flex-col hidden ">
         <div className="px-4">
           <h6 className="text-[#C8B916]">SUBJECTS OFFERED</h6>
           <p className="text-2xl mt-5">
@@ -326,7 +326,7 @@ function About() {
   </table>
   </div>
       </section>
-      <section className="bg-[#145A8D] w-full md:h-[90vh] h-[55vh] md:pb-[3em]  md:grid md:grid-cols-2 md:px-[9em] grid-cols-1  items-center justify-center text-white mb-20">
+      <section className="bg-[#145A8D] w-full md:h-[90vh] h-[75vh] md:pb-[3em]  md:grid md:grid-cols-2 md:px-[9em] grid-cols-1  items-center justify-center text-white mb-20">
         <div className="relative  h-100  hidden md:block    items-center justify-center md:pl-29">
           <div className="absolute w-[274px] h-[317px]   z-50 md:left-0 left-[29%] top-[10%] hidden md:block">
             <img
@@ -363,7 +363,7 @@ function About() {
           </li>
           <li className="list">Christ-Centered Education (Proverbs 22:6)</li>
           <li className="list">Service & Mission (*Mathew 28:19-20*)</li>
-          <div className="flex items-center mt-8 w-full justify-center md:justify-start">
+          <div className="flex items-center md:mt-8 w-full justify-center md:justify-start">
             <img src="/images/Check.png" alt="about-img" />
             <h2>TRUSTED ADVENTIS SCHOOL</h2>
           </div>

@@ -5,9 +5,13 @@ function Contact() {
   return (
     <>
       <div
-        className="bg-cover bg-no-repeat md:bg-center  md:bg-no-repeat w-full h-[70vh]  md:bg-cover md:h-[80vh] lg: xl:h-[90vh] "
-        style={{ backgroundImage: "url('/images/Rectangle 82.png')" }}
-        id="contact-bg"
+        className="xl:bg-cover bg-no-repeat md:bg-center  md:bg-no-repeat w-full h-[70vh]  md:bg-cover md:h-[80vh] lg: xl:h-[90vh] "
+        style={{
+          backgroundImage: "url('/images/Rectangle 82.png')",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+        id="contact-bg" 
       >
         <h1 className=" md:pt-[600px] md:text-5xl text-4xl pt-[300px] text-white font-mersad leading-tight 1.25  xl:pt-[390px] px-4 lg:pl-20 xl:pl-14">
           Become A Part <br /> Of Our Community
